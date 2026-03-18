@@ -1,0 +1,49 @@
+AI-backend/node_modules
+AI-backend/dist
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+myenv/Lib
+
+# Python virtual environments
+venv/
+env/
+ENV/
+myenv/
+
+datasets/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Machine learning artifacts
+data/
+models/
+checkpoints/
+logs/
+*.h5
+*.pkl
+*.joblib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
