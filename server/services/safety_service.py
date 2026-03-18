@@ -78,7 +78,7 @@ def evaluate_safety(
         recommendation = "This supplement appears safe based on your dietary restrictions."
 
     return ScanResult(
-        status=status,
+        status_result=status,
         verdict_reason=verdict_reason,
         extracted_text=extracted_text,
         ingredients_detected=[i.ingredient for i in analysis],
